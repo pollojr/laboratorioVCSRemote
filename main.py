@@ -1,7 +1,12 @@
-a=int(input("por favor ingrese el primero numero"))
-c=int(input("por favor ingrese el segundo numero"))
-r=a*c
-r2=2*a
-print("el producto es:{} ".format(r))
-print("el valor doble de a es:{} ".format(r2))      
-      
+import math
+b=int(input("por favor ingrese el primero numero"))
+d=int(input("por favor ingrese el segundo numero"))
+z=b*b
+raiz= math.sqrt(d)
+
+print("el doble de b es: {}" .format(z))
+print("la raiz de d es: {}" .format(raiz))
+
+
+
+
